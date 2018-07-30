@@ -1,0 +1,15 @@
+version: "2.2"
+
+services: 
+   db:
+     image: selmaleathem/sql_db
+     ports:
+       - "3306:3306"
+     container_name: url-tracker
+   webapi:
+     image: selmaleathem/urlshortener_app
+     ports:
+       - "8080:8080"
+     links:
+        - db
+  
