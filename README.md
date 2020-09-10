@@ -1,8 +1,10 @@
 #   URL Shortener API and Web Application
 
-URL Shortening web application and web service with statistics developed using Java, Spring MVC, Spring REST, Hibernate, JSP, Maven, Eclipse, MySql, HTML and CSS. Available as a Docker image (see docker-compose file). 
+URL Shortening web application and web service with statistics developed using Java, Spring MVC, Spring REST, Hibernate, JSP, Maven, Eclipse, MySql, HTML and CSS. 
 
-## Instructions
+Available as an image on Docker Hub.
+
+## Instructions to Download and Run Image
 
 1. If Apache Tomcat is installed make sure it is not running by visiting services
 
