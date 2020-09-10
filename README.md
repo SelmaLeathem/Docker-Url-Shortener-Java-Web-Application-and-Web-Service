@@ -4,7 +4,7 @@ URL Shortening web application and web service with statistics developed using J
 
 ## Instructions
 
-1. If Tomcat is installed make sure it is not running by visiting services
+1. If Apache Tomcat is installed make sure it is not running by visiting services
 
 1.  Run docker-compose.yml with the -d option as follows:   docker-compose up -d 
 
