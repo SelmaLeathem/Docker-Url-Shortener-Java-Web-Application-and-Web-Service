@@ -4,10 +4,10 @@ services:
    db:
      image: selmaleathem/sql_db
      ports:
-       - "3306:3306"
+       - "30306:3306"
      container_name: url-tracker
    webapi:
-     image: selmaleathem/urlshortener_app
+     image: selmaleathem/urlshortener_app2
      ports:
        - "8080:8080"
      links:
